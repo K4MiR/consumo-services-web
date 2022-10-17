@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               controller: _controllerCep,
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 15),
             ElevatedButton(
               onPressed: _recuperarCep,
               child: Text("Clique aqui"),
